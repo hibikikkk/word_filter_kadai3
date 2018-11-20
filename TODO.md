@@ -1,15 +1,15 @@
 TODO
 ------------------
 
-- [ ] C-1:　NGワードが含まれているかどうかを判定できる
-- [ ] NGワードが含まれているかどうかを判定できる detect() メソッドを持つ WordFilterクラス を実装
-    - [ ] my_filter = WordFilter("アーセナル")
+- [x] C-1:　NGワードが含まれているかどうかを判定できる
+- [x] NGワードが含まれているかどうかを判定できる detect() メソッドを持つ WordFilterクラス を実装
+    - [x] my_filter = WordFilter("アーセナル")
 ​
-- [ ] NGワードが含まれている場合 
-    - [ ] my_filter.detect("昨日のアーセナルの試合アツかった！") # Trueを返す 
+- [x] NGワードが含まれている場合 
+    - [x] my_filter.detect("昨日のアーセナルの試合アツかった！") # Trueを返す 
 ​
-- [ ] NGワードが含まれていない場合 
-    - [ ] my_filter.detect("昨日のリバプールの試合アツかった！") # Falseを返す 
+- [x] NGワードが含まれていない場合 
+    - [x] my_filter.detect("昨日のリバプールの試合アツかった！") # Falseを返す 
 
 
 
