@@ -5,3 +5,8 @@ class WordFilter:
 
     def detect(self, texts):
         return self.ng_word in texts
+
+    def censor(self, texts):
+        if self.detect(texts):
+            return texts.replace(self.ng_word, "<censored>")
+        return texts
